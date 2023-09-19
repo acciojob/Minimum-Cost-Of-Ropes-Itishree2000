@@ -1,6 +1,5 @@
 function calculateMinCost() {
-  //your code here
-	// Get the input string of rope lengths from the input field
+   // Get the input string of rope lengths from the input field
   const inputElement = document.getElementById("rope-lengths");
   const inputString = inputElement.value;
 
@@ -41,7 +40,4 @@ function calculateMinCost() {
   // Display the minimum cost in the result div
   const resultElement = document.getElementById("result");
   resultElement.textContent = `Minimum cost: ${totalCost}`;
-  
-  
-  
 }  
